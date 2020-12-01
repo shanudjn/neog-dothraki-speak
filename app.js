@@ -3,7 +3,7 @@ var btnTranslate = document.querySelector('#btn-translate')
 var outputArea = document.querySelector('#output-area');
 
 
-var url = 'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json'
+var url = 'https://api.funtranslations.com/translate/valyrian.json'
 
 function getTranslateURL(text) {
     return url + "?" + "text=" + text;
